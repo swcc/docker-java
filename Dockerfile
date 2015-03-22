@@ -3,7 +3,7 @@ FROM phusion/baseimage:latest
 RUN apt-get update
 
 # Install java
-RUN apt-get install -y openjdk-7-jdk
+RUN apt-get install -y openjdk-8-jdk
 
 # Install ant
 RUN apt-get install -y ant
